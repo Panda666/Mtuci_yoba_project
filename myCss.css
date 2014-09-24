@@ -1,4 +1,4 @@
-* { margin:0px; padding:0px;height: 100%; }
+﻿* { margin:0px; padding:0px;height: 100%; }
 
 /*Дивы*/
 .Wrap
@@ -13,7 +13,7 @@ background: linear-gradient(to right,  #4e92c9 0%,#1e5799 20%,#1e5799 80%,#4e92c
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e92c9', endColorstr='#4e92c9',GradientType=1 ); /* IE6-9 */
 
 min-height: 100%;
-min-width: 700px;
+min-width: 600px;
 }
 
 .Main{
