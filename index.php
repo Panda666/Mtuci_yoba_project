@@ -64,7 +64,7 @@ else
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <link rel="stylesheet" type="text/css" href="mobile_css.css">
 <link rel="stylesheet" type="text/css" href="middle_css.css" media="only screen and (min-width:700px)">
-<link rel="stylesheet" type="text/css" href="big_css.css" media="only screen and (min-width:3000px)">
+<link rel="stylesheet" type="text/css" href="big_css.css" media="only screen and (min-width:1280px)">
 </head>
 
 <body>
