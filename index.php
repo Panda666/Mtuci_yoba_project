@@ -1,24 +1,4 @@
-<?
-$Para11;
-$Para12;
-$Para13;
-$Para14;
-$Para21;
-$Para22;
-$Para23;
-$Para24;
-$Para31;
-$Para32;
-$Para33;
-$Para34;
-$Para41;
-$Para42;
-$Para43;
-$Para44;
-$Para51;
-$Para52;
-$Para53;
-$Para54;
+<?php
 $i = idate('W');
 $i -= 35;
 if ( $i  % 2 == 0)
@@ -81,8 +61,10 @@ else
 <meta charset="utf-8">
 	<title>МТУСИ</title>
 <meta http-equiv="Content-type" content="text/html">
-<meta http-equiv="Content-style-type" content="text/css">
-<link rel="stylesheet" type="text/css" href="myCss.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="mobile_css.css">
+<link rel="stylesheet" type="text/css" href="middle_css.css" media="only screen and (min-width:700px)">
+<link rel="stylesheet" type="text/css" href="big_css.css" media="only screen and (min-width:3000px)">
 </head>
 
 <body>
@@ -94,12 +76,12 @@ else
 	         </div>
 	         <!-- Main_logo -->
 
-	         <div class="Logo">
+	         <div class="Logo_text">
 	                <center> <h2>Расписание <br> БПМ1401 </h2>     </center>
 
 	         </div>
 
-	         <div class="table">
+	     <div class="table">
 	         <table class="gridtable">
 
 	         <tr>
