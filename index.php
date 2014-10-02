@@ -82,7 +82,7 @@ else
 	         </div>
 
 	     <div class="table">
-	         <table class="gridtable">
+	         <!-- <table class="gridtable">
 
 	         <tr>
 	            <th>Пара</th>
@@ -140,13 +140,13 @@ else
 
 
 	         </table>
-	         <!-- Table -->
+	         <!-- Table --> -->
 
 
 	         </div>
 	         <!-- Second_logo -->
 
-	</div>
+	        </div>
 	<!-- Main -->
 
 </div>
