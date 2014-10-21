@@ -64,12 +64,10 @@ else
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <link rel="stylesheet" type="text/css" href="mobile_css.css">
 <link rel="stylesheet" type="text/css" href="middle_css.css" media="only screen and (min-width:700px)">
-<link rel="stylesheet" type="text/css" href="big_css.css" media="only screen and (min-width:1280px)">
+<!-- <link rel="stylesheet" type="text/css" href="big_css.css" media="only screen and (min-width:1280px)"> -->
 </head>
 
 <body>
-
-<div class="Wrap">
 	<div class="Main">
 	         <div class="Logo">
 	                 <center> <h1>МТУСИ</h1></center>
@@ -80,77 +78,59 @@ else
 	                <center> <h2>Расписание <br> БПМ1401 </h2>     </center>
 
 	         </div>
+	         <!-- Logo text -->	
+	         
+	   <div class="taable">
+	   
+			       <table class="gridtable">     
+				         <tr> <th><h3>Понедельник</h3></th></tr>
+				         <tr> <td><?=$Para11?> <br></td></tr>
+				         <tr> <td><?=$Para12?> <br></td></tr>
+				         <tr> <td><?=$Para13?> <br></td></tr>
+				         <tr> <td><?=$Para14?> <br></td></tr>
+				         <tr> <td><?=$Para15?> <br></td></tr> 
+				     
+				    </table>
+				    <table class="gridtable">     
+			              <tr> <th><h3>Вторник</h3></th></tr>
+				         <tr> <td><?=$Para21?> <br></td></tr>
+				         <tr> <td><?=$Para22?> <br></td></tr>
+				         <tr> <td><?=$Para23?> <br></td></tr>
+				         <tr> <td><?=$Para24?> <br></td></tr>
+				         <tr> <td><?=$Para25?> <br></td></tr>     
+				     </table>
 
-	     <div class="table">
-	         <!-- <table class="gridtable">
-
-	         <tr>
-	            <th>Пара</th>
-	         	<th>Понедельник</th>
-	         	<th>Вторник</th>
-	         	<th>Среда</th>
-	         	<th>Четверг</th>
-	         	<th>Пятница</th>
-	         </tr>
-
-	         <tr>
-	         <td>9.30-11.05</td>
-	         <td> <?=$Para11?></td>
-	         <td><?=$Para21?></td>
-	         <td> <?=$Para31?></td>
-	         <td> <?=$Para41?></td>
-	         <td><?=$Para51?> </td>
-	         </tr>
-
-	         <tr>
-	         <td>11.15-12.50</td>
-	         <td><?=$Para12?></td>
-	         <td><?=$Para22?></td>
-	         <td><?=$Para32 ?></td>
-	         <td><?=$Para42 ?></td>
-	         <td><?=$Para52 ?></td>
-	         </tr>
-
-	         <tr>
-	         <td>13.00-14.35</td>
-	         <td><?=$Para13 ?></td>
-	         <td><?=$Para23 ?></td>
-	         <td><?=$Para33 ?></td>
-	         <td><?=$Para43 ?></td>
-	         <td><?=$Para53 ?></td>
-	         </tr>
-
-	         <tr>
-	         <td>15.00-16.30</td>
-	         <td><?=$Para14 ?></td>
-	         <td><?=$Para24  ?></td>
-	         <td><?=$Para34 ?></td>
-	         <td><?=$Para44 ?></td>
-	         <td><?=$Para54 ?></td>
-	         </tr>
-
-	         <tr>
-	         <td>16.40-18.10</td>
-	         <td> <br>-<br> </td>
-	         <td>  - </td>
-	         <td>  - </td>
-	         <td>  - </td>
-	         <td> -  </td>
-	         </tr>
+			         <table class="gridtable">         
+			             <tr> <th><h3>Среда</h3></th></tr>
+				         <tr> <td><?=$Para31?> <br></td></tr>
+				         <tr> <td><?=$Para32?> <br></td></tr>
+				         <tr> <td><?=$Para33?> <br></td></tr>
+				         <tr> <td><?=$Para34?> <br></td></tr>
+				         <tr> <td><?=$Para35?> <br></td></tr>     
+				     </table>
+				     <table class="gridtable">	     
+			             <tr> <th><h3>Четверг</h3></th></tr>
+				         <tr> <td><?=$Para41?> <br></td></tr>
+				         <tr> <td><?=$Para42?> <br></td></tr>
+				         <tr> <td><?=$Para43?> <br></td></tr>
+				         <tr> <td><?=$Para44?> <br></td></tr>
+				         <tr> <td><?=$Para45?> <br></td></tr>	     
+				     </table>
+				     <table class="gridtable">	     
+			            <tr> <th><h3>Пятница</h3></th></tr>
+				         <tr> <td><?=$Para51?> <br></td></tr>
+				         <tr> <td><?=$Para52?> <br></td></tr>
+				         <tr> <td><?=$Para53?> <br></td></tr>
+				         <tr> <td><?=$Para54?> <br></td></tr>
+				         <tr> <td><?=$Para55?> <br></td></tr>     
+				     </table> 
+				     </div>
+				    
+				    <!-- table -->  
+	       </div>  
 
 
-	         </table>
-	         <!-- Table --> -->
-
-
-	         </div>
-	         <!-- Second_logo -->
-
-	        </div>
 	<!-- Main -->
-
-</div>
-<!-- Wrap -->
 
 </body>
 
