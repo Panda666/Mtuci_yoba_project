@@ -1,6 +1,7 @@
 * {
 margin:0px;
 padding:0px;
+height: 100%;
 }
 
 body{
@@ -45,22 +46,6 @@ margin-left: auto;
 margin-right: auto;
 }
 
-/*.gridtable{
-margin-top: 5%;
-margin-left: auto;
-margin-right: auto;
-width: 80%;
-height: 100%;
-}*/
-
-.taable{
-width: 80%;
-background-color: #ffffff ;
-margin-left: auto;
-margin-right: auto;
-height: 100%;
-min-height: 100%;
-}
 
 @font-face {
     font-family: NP_font;
@@ -81,6 +66,7 @@ table.gridtable {
 	min-width: 10%;
 	max-width: 20%;
 	height: 60%;
+	max-height: 30%;
 	float: left;
 }
 

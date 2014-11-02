@@ -3,7 +3,7 @@ include('functions.php');
 startup();
 if ( (isset($_POST['Para_name']) && isset($_POST['Sensei_name']) && isset($_POST['Auditory'])
 		&& isset($_POST['Week_of_start']) && isset($_POST['Week_of_end']) && isset($_POST['Week_type'])
-		&& isset($_POST['Para_type']) && isset($_POST['Day_of_week'])) !=" ")  
+		&& isset($_POST['Para_type']) && isset($_POST['Day_of_week'])) !=" ")
 	{
 		send_dataInfo($_POST['Table_name'],$_POST['Para_name'],$_POST['Sensei_name'],$_POST['Auditory'],
 						$_POST['Week_of_start'],$_POST['Week_of_end'],$_POST['Week_type'],
