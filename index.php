@@ -63,8 +63,7 @@ else
 <meta http-equiv="Content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <link rel="stylesheet" type="text/css" href="mobile_css.css">
-<link rel="stylesheet" type="text/css" href="middle_css.css" media="only screen and (min-width:700px)">
-<!-- <link rel="stylesheet" type="text/css" href="big_css.css" media="only screen and (min-width:1280px)"> -->
+<link rel="stylesheet" type="text/css" href="middle_css.css" media="only screen and (min-width:900px)">
 </head>
 
 <body>
@@ -72,15 +71,13 @@ else
 	         <div class="Logo">
 	                 <center> <h1>МТУСИ</h1></center>
 	         </div>
-	         <!-- Main_logo -->
+
 
 	         <div class="Logo_text">
 	                <center> <h2>Расписание <br> БПМ1401 </h2>     </center>
 
 	         </div>
-	         <!-- Logo text -->
 
-	   <div class="taable">
 
 			       <table class="gridtable">
 				         <tr> <th><h3>Понедельник</h3></th></tr>
@@ -124,9 +121,9 @@ else
 				         <tr> <td><?=$Para54?> <br></td></tr>
 				         <tr> <td><?=$Para55?> <br></td></tr>
 				     </table>
-				     </div>
 
-				    <!-- table -->
+
+
 	       </div>
 
 
