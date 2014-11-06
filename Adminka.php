@@ -7,7 +7,7 @@ if ( (isset($_POST['Para_name']) && isset($_POST['Sensei_name']) && isset($_POST
 	{
 		send_dataInfo($_POST['Table_name'],$_POST['Para_name'],$_POST['Sensei_name'],$_POST['Auditory'],
 						$_POST['Week_of_start'],$_POST['Week_of_end'],$_POST['Week_type'],
-							$_POST['Para_type'],$_POST['Day_of_week']);
+							$_POST['Para_type'],$_POST['Day_of_week'],$_POST['Para_number']);
 	}
 else
 	echo('Все полня обязательны для заполненя');
@@ -23,6 +23,8 @@ else
 </select><br>
 Назваие пары: <br>
 <input type='text' name='Para_name'><br>
+Номер пары: <br>
+<input type='text' name='Para_number'><br>
 Имя преподавателя: <br>
 <input type='text' name='Sensei_name'><br>
 Номер аудитории:<br>
